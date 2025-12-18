@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 
 // Configuración
 $connectionString = getenv("AZURE_STORAGE_CONNECTION_STRING");
-$containerName = "comprimidos";
+$containerName = "comprimits";
 
 if (!$connectionString) {
     die("La variable AZURE_STORAGE_CONNECTION_STRING no está configurada.");
@@ -107,4 +107,5 @@ try {
         <button type="submit">Subir</button>
     </form>
 </body>
+
 </html>
